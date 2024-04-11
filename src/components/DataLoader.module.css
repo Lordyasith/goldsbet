@@ -1,0 +1,44 @@
+.dataUnloaderIcon {
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+.canIChange,
+.ofCourseOur {
+  position: relative;
+  letter-spacing: 0.2px;
+}
+.canIChange {
+  margin: 0;
+  font-size: inherit;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: inherit;
+}
+.ofCourseOur {
+  width: 350px;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-gray-600);
+  display: inline-block;
+  max-width: 100%;
+}
+.dataLoader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-lexend-exa);
+}
+@media screen and (max-width: 450px) {
+  .canIChange {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+}

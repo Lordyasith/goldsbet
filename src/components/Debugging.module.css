@@ -1,0 +1,70 @@
+.topGames {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 100%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.seeAllGames {
+  position: relative;
+  font-size: var(--font-size-base);
+  text-decoration: underline;
+  font-weight: 500;
+  font-family: var(--font-lexend-exa);
+  color: var(--color-white);
+  text-align: left;
+}
+.arrowSquareRightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.visualizing {
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.debugging,
+.evaluating,
+.visualizing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.evaluating {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-600);
+  padding: var(--padding-mini) var(--padding-lgi);
+  background-color: var(--color-gray-400);
+  border-radius: var(--br-3xs);
+  backdrop-filter: blur(24px);
+  justify-content: center;
+}
+.debugging {
+  width: 1046px;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 4;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-lexend-mega);
+}
+@media screen and (max-width: 900px) {
+  .topGames {
+    font-size: var(--font-size-32xl);
+    line-height: 51px;
+  }
+  .debugging {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .topGames {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+}

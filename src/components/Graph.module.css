@@ -1,0 +1,77 @@
+.tree {
+  position: absolute;
+  top: 1928.27px;
+  left: 625.5px;
+  border-radius: 50%;
+  background-color: var(--color-cornflowerblue);
+  filter: blur(1000px);
+  width: 2106px;
+  height: 513px;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+}
+.graphChild {
+  position: absolute;
+  top: 1355px;
+  left: 777px;
+  width: 55px;
+  height: 55px;
+  z-index: 1;
+}
+.graphItem,
+.tree1,
+.tree2,
+.tree3 {
+  position: absolute;
+  top: 1375.5px;
+  left: 872px;
+  width: 14px;
+  height: 14px;
+  z-index: 1;
+}
+.tree1,
+.tree2,
+.tree3 {
+  left: 926px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+}
+.tree2,
+.tree3 {
+  left: 980px;
+}
+.tree3 {
+  left: 1034px;
+}
+.graphInner {
+  top: 1355px;
+  left: 1088px;
+  width: 55px;
+  height: 55px;
+  z-index: 1;
+}
+.graph,
+.graphInner,
+.tree4 {
+  position: absolute;
+}
+.tree4 {
+  top: 1489.17px;
+  left: -625.4px;
+  border-radius: 50%;
+  background-color: var(--color-darkmagenta);
+  filter: blur(1000px);
+  width: 2106px;
+  height: 513px;
+  transform: rotate(-45deg);
+  transform-origin: 0 0;
+  z-index: 2;
+}
+.graph {
+  width: 100%;
+  height: 2291px;
+  margin: 0 !important;
+  right: 0;
+  bottom: 1826.5px;
+  left: 0;
+}

@@ -1,0 +1,131 @@
+.frameChild {
+  width: 560px;
+  height: 355px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-500);
+  backdrop-filter: blur(24px);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.theBestWebflow,
+.utEnimAd {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.theBestWebflow {
+  margin: 0;
+  width: 419px;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 700;
+  font-family: inherit;
+  max-width: 100%;
+}
+.utEnimAd {
+  align-self: stretch;
+  height: 148px;
+  font-size: var(--font-size-lg);
+  line-height: 30px;
+  color: var(--color-gray-600);
+  flex-shrink: 0;
+}
+.theBestWebflowTemplatesParent {
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.frameItem {
+  height: 62px;
+  width: 62px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.ceoAtWebflow,
+.johnCarter {
+  position: relative;
+  line-height: 20px;
+  z-index: 1;
+}
+.ceoAtWebflow {
+  color: var(--color-gray-600);
+}
+.johnCarterParent {
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.frameContainer,
+.frameParent,
+.frameWrapper,
+.johnCarterParent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.frameParent,
+.frameWrapper,
+.rectangleParent {
+  max-width: 100%;
+}
+.frameParent {
+  flex-direction: row;
+  gap: var(--gap-4xl);
+  font-size: var(--font-size-lg);
+}
+.frameWrapper,
+.rectangleParent {
+  flex: 1;
+}
+.rectangleParent {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-500);
+  backdrop-filter: blur(24px);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-19xl) var(--padding-11xl) var(--padding-20xl);
+  gap: var(--gap-11xl);
+}
+.frameWrapper {
+  flex-direction: row;
+  min-width: 420px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-lexend-exa);
+}
+@media screen and (max-width: 900px) {
+  .rectangleParent {
+    gap: var(--gap-mini);
+  }
+  .frameWrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theBestWebflow {
+    font-size: var(--font-size-lg);
+    line-height: 22px;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .rectangleParent {
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}

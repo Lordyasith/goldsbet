@@ -1,0 +1,24 @@
+.decryptionController,
+.signatureVerifier {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.signatureVerifier {
+  width: 1720px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.decryptionController {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-39xl-8);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1725px) {
+  .signatureVerifier {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

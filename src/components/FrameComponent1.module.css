@@ -1,0 +1,61 @@
+.ethereumParent,
+.visamastercardParent {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.visamastercardParent {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.ethereumParent {
+  align-self: stretch;
+}
+.ethereumParent,
+.frameParent,
+.frameWrapper,
+.goldsbetproInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-165xl) 0 0;
+  box-sizing: border-box;
+  margin-left: -1720px;
+}
+.frameParent,
+.goldsbetproInner {
+  flex-direction: row;
+}
+.frameParent {
+  width: 1720px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  mix-blend-mode: luminosity;
+  z-index: 2;
+}
+.goldsbetproInner {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-69xl-8);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1725px) {
+  .ethereumParent,
+  .visamastercardParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .goldsbetproInner {
+    padding-bottom: var(--padding-39xl);
+    box-sizing: border-box;
+  }
+}

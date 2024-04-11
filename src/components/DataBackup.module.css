@@ -1,0 +1,124 @@
+.cantFindThe,
+.stillHaveQuestions {
+  position: relative;
+  letter-spacing: 0.2px;
+}
+.stillHaveQuestions {
+  margin: 0;
+  font-size: inherit;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: inherit;
+}
+.cantFindThe {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-gray-600);
+}
+.stillHaveQuestionsParent {
+  width: 627px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.buttonChild,
+.contentIcon {
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+}
+.buttonChild {
+  height: 80px;
+  width: 371px;
+  position: relative;
+  background: linear-gradient(0deg, #0071b1, #00e0ff);
+  filter: blur(80px);
+  display: none;
+  z-index: 0;
+}
+.contentIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.getInTouch {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 160%;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 2;
+}
+.button {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+}
+.button,
+.dataBackup,
+.dataProcessor,
+.valueAggregator {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.valueAggregator {
+  width: 371px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  color: var(--color-gray-100);
+}
+.dataBackup,
+.dataProcessor {
+  flex-direction: row;
+}
+.dataProcessor {
+  width: 1720px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.dataBackup {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-111xl-8);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-lexend-exa);
+}
+@media screen and (max-width: 1350px) {
+  .dataProcessor {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .getInTouch,
+  .stillHaveQuestions {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .getInTouch {
+    line-height: 26px;
+  }
+}

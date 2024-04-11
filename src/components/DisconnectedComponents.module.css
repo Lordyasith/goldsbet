@@ -1,0 +1,29 @@
+.disconnectedComponents,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1720px;
+  flex-wrap: wrap;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.disconnectedComponents {
+  align-self: stretch;
+  padding: 0 var(--padding-xl) var(--padding-164xl-8);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-lexend-exa);
+}
+@media screen and (max-width: 900px) {
+  .disconnectedComponents {
+    padding-bottom: var(--padding-100xl);
+    box-sizing: border-box;
+  }
+}

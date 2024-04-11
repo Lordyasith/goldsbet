@@ -1,0 +1,371 @@
+.frameChild,
+.icon {
+  position: relative;
+  display: none;
+}
+.frameChild {
+  width: 1920px;
+  height: 357px;
+  background-color: var(--color-gray-900);
+  backdrop-filter: blur(13px);
+  max-width: 100%;
+}
+.icon {
+  height: 92px;
+  width: 315px;
+  object-fit: cover;
+}
+.safeProtectedConnection {
+  width: 464px;
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.callCallingIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.b {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 94px;
+}
+.callCallingParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  opacity: 0.5;
+}
+.smsIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.officilgoldsbetgmailcom {
+  position: relative;
+  line-height: 160%;
+  white-space: nowrap;
+}
+.frameParent,
+.smsParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.smsParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-8xs);
+  opacity: 0.5;
+}
+.frameParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+}
+.errorHandler {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-mid) 0 var(--padding-mid) var(--padding-633xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.company,
+.gettingStarted {
+  position: relative;
+  line-height: 160%;
+  white-space: nowrap;
+}
+.company {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 121px;
+}
+.gettingStarted {
+  font-weight: 500;
+}
+.about {
+  display: inline-block;
+  min-width: 52px;
+}
+.about,
+.faq,
+.termsConditions {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+}
+.faq {
+  display: inline-block;
+  min-width: 34px;
+}
+.termsConditions {
+  white-space: nowrap;
+}
+.gettingStartedParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+}
+.companyParent {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.play {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 160%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 62px;
+  white-space: nowrap;
+}
+.casino,
+.cricket,
+.election,
+.events,
+.soccer,
+.specialMarket,
+.tennis {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 62px;
+}
+.casino,
+.election,
+.events,
+.soccer,
+.specialMarket,
+.tennis {
+  min-width: 59px;
+}
+.casino,
+.election,
+.events,
+.specialMarket,
+.tennis {
+  min-width: 55px;
+}
+.casino,
+.election,
+.events,
+.specialMarket {
+  min-width: 58px;
+}
+.election,
+.events,
+.specialMarket {
+  min-width: 70px;
+}
+.events,
+.specialMarket {
+  min-width: 58px;
+}
+.specialMarket {
+  min-width: 129px;
+  white-space: nowrap;
+}
+.cricketParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frameContainer,
+.playParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+}
+.playParent {
+  width: 791px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 1531px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.errorHandlerParent {
+  width: 1720px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.copyright2022GoldsbetAll,
+.disclaimerPlease {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  z-index: 1;
+}
+.disclaimerPlease {
+  align-self: stretch;
+}
+.copyright2022GoldsbetAll {
+  width: 350px;
+  display: inline-block;
+}
+.copyright2022GoldsbetAllWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  color: var(--color-gray-800);
+}
+.disclaimerPleaseNoteThatParent {
+  width: 1205px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.frameDiv,
+.rectangleParent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameDiv {
+  width: 1720px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-12xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-700);
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--color-gray-900);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-xl) var(--padding-2xl);
+  gap: var(--gap-21xl);
+  background-image: url(/public/frame-39352@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-lexend-exa);
+}
+@media screen and (max-width: 1725px) {
+  .errorHandler {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .errorHandler {
+    padding-left: var(--padding-307xl);
+    box-sizing: border-box;
+  }
+  .gettingStartedParent {
+    display: none;
+  }
+  .companyParent {
+    width: 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .errorHandler {
+    padding-left: var(--padding-144xl);
+    box-sizing: border-box;
+  }
+  .frameContainer {
+    gap: var(--gap-21xl);
+  }
+  .rectangleParent {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .errorHandler {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .company {
+    font-size: var(--font-size-base);
+    line-height: 26px;
+  }
+  .cricketParent {
+    display: none;
+  }
+  .frameContainer {
+    gap: var(--gap-xl);
+  }
+  .rectangleParent {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

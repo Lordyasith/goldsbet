@@ -1,0 +1,168 @@
+.connector,
+.splitterIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.splitterIcon {
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  max-width: 100%;
+  object-fit: cover;
+}
+.connector {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-600);
+  padding: var(--padding-3xs) var(--padding-4xs);
+  background-color: var(--color-gray-300);
+  width: 154px;
+  border-radius: var(--br-3xs);
+  backdrop-filter: blur(24px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.signIn {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 55px;
+}
+.function {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.logoutIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  min-height: 18px;
+}
+.loop,
+.sequence {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sequence {
+  flex-direction: row;
+  gap: var(--gap-8xs);
+  opacity: 0.5;
+}
+.loop {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-7xs-5) 0 0;
+}
+.operatorIcon {
+  height: 29px;
+  width: 1px;
+  position: relative;
+}
+.signUp {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-family: var(--font-lexend-exa);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 58px;
+  white-space: nowrap;
+}
+.signUpWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.editIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  min-height: 18px;
+}
+.frameParent,
+.loop1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex-direction: row;
+  gap: var(--gap-8xs);
+  opacity: 0.5;
+}
+.loop1 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-7xs-5) 0 0;
+}
+.conditional,
+.connectorParent,
+.processingStation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.conditional {
+  width: 279px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-300);
+  backdrop-filter: blur(24px);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-base-5) var(--padding-10xl);
+  gap: var(--gap-10xl-5);
+  z-index: 2;
+}
+.connectorParent,
+.processingStation {
+  max-width: 100%;
+}
+.connectorParent {
+  width: 1720px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.processingStation {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-832xl-8) var(--padding-11xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-lexend-exa);
+}
+@media screen and (max-width: 1350px) {
+  .processingStation {
+    padding-bottom: var(--padding-535xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .connectorParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .processingStation {
+    padding-bottom: var(--padding-341xl);
+    box-sizing: border-box;
+  }
+}

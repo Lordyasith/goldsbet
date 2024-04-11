@@ -1,0 +1,257 @@
+.abstractBlackBackgroundWithIcon {
+  width: 786.1px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 73px;
+  bottom: 0;
+  max-height: 100%;
+  object-fit: contain;
+  mix-blend-mode: lighten;
+  z-index: 1;
+}
+.anOpportunityTo {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 160%;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 3;
+}
+.blankLine,
+.contactOnWhatsapp,
+.goldsbetWeAreThe {
+  margin: 0;
+}
+.goldsbetWeAreTheContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 160%;
+  font-family: var(--font-lexend-exa);
+  color: var(--color-gray-200);
+  z-index: 3;
+}
+.parameter {
+  margin-bottom: -203.4000000000001px;
+  width: 982px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-503xl) 0 var(--padding-334xl-4);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xl);
+  max-width: calc(100% - -611px);
+  flex-shrink: 0;
+}
+.buttonChild {
+  height: 80px;
+  width: 371px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(0deg, #20b038, #60d66a);
+  filter: blur(184px);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.contentIcon,
+.whatsappIcon {
+  overflow: hidden;
+  object-fit: cover;
+}
+.contentIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 1;
+}
+.whatsappIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.initialization {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.button,
+.getIdNow {
+  position: relative;
+  z-index: 2;
+}
+.getIdNow {
+  font-size: var(--font-size-xl);
+  line-height: 160%;
+  font-weight: 500;
+  font-family: var(--font-lexend-exa);
+  color: var(--color-darkslategray);
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xl) var(--padding-xl);
+  background-color: transparent;
+  width: 371px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: calc(100% - 0px);
+  margin-left: -982px;
+}
+.abstractBlackBackgroundWithIcon1 {
+  position: absolute;
+  top: 71.9px;
+  left: -187.1px;
+  width: 786.1px;
+  height: 1178.4px;
+  object-fit: contain;
+  mix-blend-mode: lighten;
+}
+.abstractBlackBackgroundWithIcon2,
+.abstractBlackBackgroundWithIcon3 {
+  position: absolute;
+  top: 75.4px;
+  left: 1284.4px;
+  width: 781px;
+  height: 1170.7px;
+  object-fit: contain;
+  mix-blend-mode: lighten;
+}
+.abstractBlackBackgroundWithIcon3 {
+  top: 44.7px;
+  left: 860.5px;
+  width: 831.1px;
+  height: 1245.8px;
+  z-index: 2;
+}
+.aggregatingIcon,
+.mergingIcon {
+  position: absolute;
+  top: 314.9px;
+  left: 200px;
+  width: 904px;
+  height: 266px;
+  object-fit: contain;
+  z-index: 3;
+}
+.aggregatingIcon {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 1062.1px;
+  max-height: 100%;
+  width: 1546.7px;
+  z-index: 4;
+}
+.indexing {
+  height: 1546.7px;
+  width: 1920px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -361.3px;
+  left: calc(50% - 960px);
+}
+.instruction,
+.instructionWrapper {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.instruction {
+  height: 969px;
+  width: 1720px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-300);
+  backdrop-filter: blur(214px);
+  border: 2px solid var(--color-gray-600);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-771xl-5) var(--padding-81xl) var(--padding-79xl-5);
+  position: relative;
+  z-index: 1;
+}
+.instructionWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-59xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-lexend-mega);
+}
+@media screen and (max-width: 1350px) {
+  .instruction,
+  .parameter {
+    padding-top: var(--padding-320xl);
+    padding-bottom: var(--padding-211xl);
+    box-sizing: border-box;
+  }
+  .instruction {
+    padding-top: var(--padding-315xl);
+    padding-bottom: var(--padding-23xl);
+  }
+  .instructionWrapper {
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .anOpportunityTo {
+    font-size: var(--font-size-7xl);
+    line-height: 41px;
+  }
+  .parameter {
+    padding-top: var(--padding-201xl);
+    padding-bottom: var(--padding-130xl);
+    box-sizing: border-box;
+  }
+  .instruction {
+    padding: var(--padding-198xl) var(--padding-31xl) var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .instructionWrapper {
+    padding-bottom: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .anOpportunityTo {
+    font-size: var(--font-size-lgi);
+    line-height: 31px;
+  }
+  .getIdNow {
+    font-size: var(--font-size-base);
+    line-height: 26px;
+  }
+  .instruction {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

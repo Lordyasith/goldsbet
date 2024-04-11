@@ -1,0 +1,197 @@
+.dataAggregatorIcon,
+.dataAggregatorIcon1,
+.dataAggregatorIcon2,
+.dataAggregatorIcon3 {
+  height: 336px;
+  width: 254px;
+  position: relative;
+  object-fit: cover;
+  z-index: 4;
+}
+.dataAggregatorChild {
+  height: 336px;
+  width: 254px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+  display: none;
+}
+.fortune,
+.gems {
+  margin: 0;
+}
+.fortuneGems {
+  margin: 0;
+  width: 187px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.dataAggregator,
+.dataAggregatorItem {
+  height: 336px;
+  border-radius: var(--br-3xs);
+}
+.dataAggregator {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-13xl) var(--padding-sm)
+    var(--padding-14xl);
+  box-sizing: border-box;
+  background-image: url(/public/rectangle-16@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.dataAggregatorItem {
+  width: 254px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+}
+.aviator {
+  margin: 0;
+  width: 177px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.dataAggregator1,
+.dataAggregatorInner {
+  height: 336px;
+  border-radius: var(--br-3xs);
+}
+.dataAggregator1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-18xl) var(--padding-13xl)
+    var(--padding-19xl);
+  box-sizing: border-box;
+  background-image: url(/public/rectangle-16@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.dataAggregatorInner {
+  width: 254px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+}
+.mines {
+  margin: 0;
+  width: 134px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.dataAggregator2,
+.rectangleIcon {
+  height: 336px;
+  border-radius: var(--br-3xs);
+}
+.dataAggregator2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-40xl);
+  box-sizing: border-box;
+  background-image: url(/public/rectangle-16@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.rectangleIcon {
+  width: 254px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+}
+.crash {
+  margin: 0;
+  width: 132px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.dataAggregator3,
+.dataAggregatorParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.dataAggregator3 {
+  height: 336px;
+  border-radius: var(--br-3xs);
+  align-items: flex-end;
+  padding: var(--padding-13xl) var(--padding-41xl);
+  box-sizing: border-box;
+  background-image: url(/public/rectangle-16@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.dataAggregatorParent {
+  width: 1046px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px 8.7px;
+  min-height: 682px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-lexend-exa);
+}
+@media screen and (max-width: 900px) {
+  .aviator,
+  .crash,
+  .fortuneGems,
+  .mines {
+    font-size: var(--font-size-7xl);
+    line-height: 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aviator,
+  .fortuneGems,
+  .mines {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .dataAggregator2 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .crash {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .dataAggregator3 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
